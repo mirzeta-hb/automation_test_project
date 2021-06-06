@@ -1,0 +1,4 @@
+regression/VerifySpecificItem.class
+regression/ViewAllItems.class
+regression/SearchForSpecificProduct.class
+testUtils/TestBase.class

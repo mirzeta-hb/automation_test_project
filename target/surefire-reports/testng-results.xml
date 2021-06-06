@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="22" passed="22" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-06T13:27:36Z" name="Smoke test" finished-at="2021-06-06T13:27:51Z" duration-ms="15055">
+    <groups>
+    </groups>
+    <test started-at="2021-06-06T13:27:36Z" name="View all displayed products" finished-at="2021-06-06T13:27:40Z" duration-ms="3641">
+      <class name="regression.ViewAllItems">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:regression.ViewAllItems@7ee8290b]" started-at="2021-06-06T13:27:36Z" name="setUp" finished-at="2021-06-06T13:27:39Z" duration-ms="2585" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[file:///Users/mirzeta/Downloads/Test%20Automation%20Task/Application/EHS.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getItems()[pri:0, instance:regression.ViewAllItems@7ee8290b]" started-at="2021-06-06T13:27:39Z" name="getItems" finished-at="2021-06-06T13:27:39Z" depends-on-methods="testUtils.TestBase.setUp" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getItems -->
+        <test-method signature="verifyHomepage()[pri:0, instance:regression.ViewAllItems@7ee8290b]" started-at="2021-06-06T13:27:39Z" name="verifyHomepage" finished-at="2021-06-06T13:27:39Z" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepage -->
+        <test-method signature="clickViewItemsButton()[pri:1, instance:regression.ViewAllItems@7ee8290b]" started-at="2021-06-06T13:27:39Z" name="clickViewItemsButton" finished-at="2021-06-06T13:27:39Z" duration-ms="346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickViewItemsButton -->
+        <test-method signature="verifyDisplayedTableTitle()[pri:2, instance:regression.ViewAllItems@7ee8290b]" started-at="2021-06-06T13:27:39Z" name="verifyDisplayedTableTitle" finished-at="2021-06-06T13:27:40Z" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDisplayedTableTitle -->
+        <test-method signature="checkAllItemsInTable()[pri:3, instance:regression.ViewAllItems@7ee8290b]" started-at="2021-06-06T13:27:40Z" name="checkAllItemsInTable" finished-at="2021-06-06T13:27:40Z" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAllItemsInTable -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:regression.ViewAllItems@7ee8290b]" started-at="2021-06-06T13:27:40Z" name="tearDown" finished-at="2021-06-06T13:27:40Z" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- regression.ViewAllItems -->
+    </test> <!-- View all displayed products -->
+    <test started-at="2021-06-06T13:27:45Z" name="Check specific Items Details" finished-at="2021-06-06T13:27:48Z" duration-ms="3102">
+      <class name="regression.VerifySpecificItem">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:regression.VerifySpecificItem@6236eb5f]" started-at="2021-06-06T13:27:45Z" name="setUp" finished-at="2021-06-06T13:27:46Z" duration-ms="1382" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[file:///Users/mirzeta/Downloads/Test%20Automation%20Task/Application/EHS.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getItem(int)[pri:0, instance:regression.VerifySpecificItem@6236eb5f]" started-at="2021-06-06T13:27:46Z" name="getItem" finished-at="2021-06-06T13:27:46Z" depends-on-methods="testUtils.TestBase.setUp" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getItem -->
+        <test-method signature="verifyHomepage()[pri:0, instance:regression.VerifySpecificItem@6236eb5f]" started-at="2021-06-06T13:27:46Z" name="verifyHomepage" finished-at="2021-06-06T13:27:47Z" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepage -->
+        <test-method signature="clickViewItemsButton()[pri:1, instance:regression.VerifySpecificItem@6236eb5f]" started-at="2021-06-06T13:27:47Z" name="clickViewItemsButton" finished-at="2021-06-06T13:27:47Z" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickViewItemsButton -->
+        <test-method signature="verifyDisplayedTableTitle()[pri:2, instance:regression.VerifySpecificItem@6236eb5f]" started-at="2021-06-06T13:27:47Z" name="verifyDisplayedTableTitle" finished-at="2021-06-06T13:27:47Z" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDisplayedTableTitle -->
+        <test-method signature="openSpecificProduct(int)[pri:3, instance:regression.VerifySpecificItem@6236eb5f]" started-at="2021-06-06T13:27:47Z" name="openSpecificProduct" finished-at="2021-06-06T13:27:47Z" duration-ms="285" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSpecificProduct -->
+        <test-method signature="verifyProductID(int)[pri:4, instance:regression.VerifySpecificItem@6236eb5f]" started-at="2021-06-06T13:27:47Z" name="verifyProductID" finished-at="2021-06-06T13:27:47Z" duration-ms="157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductID -->
+        <test-method signature="verifySpecificProductName()[pri:5, instance:regression.VerifySpecificItem@6236eb5f]" started-at="2021-06-06T13:27:47Z" name="verifySpecificProductName" finished-at="2021-06-06T13:27:48Z" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySpecificProductName -->
+        <test-method signature="verifySpecificProductMaterial()[pri:6, instance:regression.VerifySpecificItem@6236eb5f]" started-at="2021-06-06T13:27:48Z" name="verifySpecificProductMaterial" finished-at="2021-06-06T13:27:48Z" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySpecificProductMaterial -->
+        <test-method signature="verifySpecificProductManufacturer()[pri:7, instance:regression.VerifySpecificItem@6236eb5f]" started-at="2021-06-06T13:27:48Z" name="verifySpecificProductManufacturer" finished-at="2021-06-06T13:27:48Z" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySpecificProductManufacturer -->
+        <test-method signature="verifyProductPrice()[pri:8, instance:regression.VerifySpecificItem@6236eb5f]" started-at="2021-06-06T13:27:48Z" name="verifyProductPrice" finished-at="2021-06-06T13:27:48Z" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductPrice -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:regression.VerifySpecificItem@6236eb5f]" started-at="2021-06-06T13:27:48Z" name="tearDown" finished-at="2021-06-06T13:27:48Z" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- regression.VerifySpecificItem -->
+    </test> <!-- Check specific Items Details -->
+    <test started-at="2021-06-06T13:27:48Z" name="Seacrh for specific item and see details" finished-at="2021-06-06T13:27:51Z" duration-ms="3242">
+      <class name="regression.SearchForSpecificProduct">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:regression.SearchForSpecificProduct@4470f8a6]" started-at="2021-06-06T13:27:48Z" name="setUp" finished-at="2021-06-06T13:27:49Z" duration-ms="1352" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[file:///Users/mirzeta/Downloads/Test%20Automation%20Task/Application/EHS.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getItem(int)[pri:0, instance:regression.SearchForSpecificProduct@4470f8a6]" started-at="2021-06-06T13:27:49Z" name="getItem" finished-at="2021-06-06T13:27:49Z" depends-on-methods="testUtils.TestBase.setUp" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getItem -->
+        <test-method signature="verifyHomepage()[pri:0, instance:regression.SearchForSpecificProduct@4470f8a6]" started-at="2021-06-06T13:27:49Z" name="verifyHomepage" finished-at="2021-06-06T13:27:50Z" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepage -->
+        <test-method signature="clickViewItemsButton(int, int)[pri:1, instance:regression.SearchForSpecificProduct@4470f8a6]" started-at="2021-06-06T13:27:50Z" name="clickViewItemsButton" finished-at="2021-06-06T13:27:50Z" duration-ms="484" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickViewItemsButton -->
+        <test-method signature="verifyDisplayedTableTitle()[pri:2, instance:regression.SearchForSpecificProduct@4470f8a6]" started-at="2021-06-06T13:27:50Z" name="verifyDisplayedTableTitle" finished-at="2021-06-06T13:27:50Z" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDisplayedTableTitle -->
+        <test-method signature="openSpecificProduct(int)[pri:3, instance:regression.SearchForSpecificProduct@4470f8a6]" started-at="2021-06-06T13:27:50Z" name="openSpecificProduct" finished-at="2021-06-06T13:27:51Z" duration-ms="298" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSpecificProduct -->
+        <test-method signature="verifyProductID(int)[pri:4, instance:regression.SearchForSpecificProduct@4470f8a6]" started-at="2021-06-06T13:27:51Z" name="verifyProductID" finished-at="2021-06-06T13:27:51Z" duration-ms="155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductID -->
+        <test-method signature="verifySpecificProductName()[pri:5, instance:regression.SearchForSpecificProduct@4470f8a6]" started-at="2021-06-06T13:27:51Z" name="verifySpecificProductName" finished-at="2021-06-06T13:27:51Z" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySpecificProductName -->
+        <test-method signature="verifySpecificProductMaterial()[pri:6, instance:regression.SearchForSpecificProduct@4470f8a6]" started-at="2021-06-06T13:27:51Z" name="verifySpecificProductMaterial" finished-at="2021-06-06T13:27:51Z" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySpecificProductMaterial -->
+        <test-method signature="verifySpecificProductManufacturer()[pri:7, instance:regression.SearchForSpecificProduct@4470f8a6]" started-at="2021-06-06T13:27:51Z" name="verifySpecificProductManufacturer" finished-at="2021-06-06T13:27:51Z" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySpecificProductManufacturer -->
+        <test-method signature="verifyProductPrice()[pri:8, instance:regression.SearchForSpecificProduct@4470f8a6]" started-at="2021-06-06T13:27:51Z" name="verifyProductPrice" finished-at="2021-06-06T13:27:51Z" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductPrice -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:regression.SearchForSpecificProduct@4470f8a6]" started-at="2021-06-06T13:27:51Z" name="tearDown" finished-at="2021-06-06T13:27:51Z" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- regression.SearchForSpecificProduct -->
+    </test> <!-- Seacrh for specific item and see details -->
+  </suite> <!-- Smoke test -->
+</testng-results>

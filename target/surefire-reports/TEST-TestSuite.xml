@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="20.414" tests="22" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.7+10-LTS"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/applejdk-11.0.7.10.1.jdk/Contents/Home/lib"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/mirzeta/Desktop/ehs_regression_automation/ehs_regression_automation"/>
+    <property name="java.vm.vendor" value="Apple Inc."/>
+    <property name="java.vendor.url" value="https://java.apple.com"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="user.country" value="BA"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/mirzeta/Desktop/ehs_regression_automation/ehs_regression_automation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.7+10-LTS"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/n4/0g9rx5q50c1bsg7p5l04zdb80000gp/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="suiteXmlFile" value="regression.xml"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.6.1/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/mirzeta/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.6.1/libexec/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.16"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.6.1/libexec/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/mirzeta"/>
+    <property name="user.timezone" value="Europe/Sarajevo"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="mirzeta"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.6.1/libexec/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test -DsuiteXmlFile=regression.xml"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/applejdk-11.0.7.10.1.jdk/Contents/Home"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.7"/>
+    <property name="java.vendor" value="Apple Inc."/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.6.1/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2020-04-14"/>
+    <property name="java.vendor.url.bug" value="https://rdar.apple.com/new/1003593"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="AppleJDK-11.0.7.10.1"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="verifyHomepage" classname="regression.ViewAllItems" time="0.207"/>
+  <testcase name="clickViewItemsButton" classname="regression.ViewAllItems" time="0.346"/>
+  <testcase name="verifyDisplayedTableTitle" classname="regression.ViewAllItems" time="0.134"/>
+  <testcase name="checkAllItemsInTable" classname="regression.ViewAllItems" time="0.239"/>
+  <testcase name="verifyHomepage" classname="regression.VerifySpecificItem" time="0.162"/>
+  <testcase name="clickViewItemsButton" classname="regression.VerifySpecificItem" time="0.329"/>
+  <testcase name="verifyDisplayedTableTitle" classname="regression.VerifySpecificItem" time="0.134"/>
+  <testcase name="openSpecificProduct" classname="regression.VerifySpecificItem" time="0.285"/>
+  <testcase name="verifyProductID" classname="regression.VerifySpecificItem" time="0.157"/>
+  <testcase name="verifySpecificProductName" classname="regression.VerifySpecificItem" time="0.157"/>
+  <testcase name="verifySpecificProductMaterial" classname="regression.VerifySpecificItem" time="0.135"/>
+  <testcase name="verifySpecificProductManufacturer" classname="regression.VerifySpecificItem" time="0.133"/>
+  <testcase name="verifyProductPrice" classname="regression.VerifySpecificItem" time="0.131"/>
+  <testcase name="verifyHomepage" classname="regression.SearchForSpecificProduct" time="0.169"/>
+  <testcase name="clickViewItemsButton" classname="regression.SearchForSpecificProduct" time="0.484"/>
+  <testcase name="verifyDisplayedTableTitle" classname="regression.SearchForSpecificProduct" time="0.139"/>
+  <testcase name="openSpecificProduct" classname="regression.SearchForSpecificProduct" time="0.298"/>
+  <testcase name="verifyProductID" classname="regression.SearchForSpecificProduct" time="0.156"/>
+  <testcase name="verifySpecificProductName" classname="regression.SearchForSpecificProduct" time="0.157"/>
+  <testcase name="verifySpecificProductMaterial" classname="regression.SearchForSpecificProduct" time="0.139"/>
+  <testcase name="verifySpecificProductManufacturer" classname="regression.SearchForSpecificProduct" time="0.133"/>
+  <testcase name="verifyProductPrice" classname="regression.SearchForSpecificProduct" time="0.133"/>
+</testsuite>

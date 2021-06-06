@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Smoke test" verbose="9">
+    <parameter name="url" value="file:///Users/mirzeta/Downloads/Test%20Automation%20Task/Application/EHS.html"/>
+    <parameter name="browser" value="chrome"/>
+
+    <test name="View all displayed products">
+        <classes>
+            <class name="regression.ViewAllItems"/>
+        </classes>
+    </test>
+    <test name="Check specific Items Details">
+        <parameter name="row" value="2"/>
+        <classes>
+            <class name="regression.VerifySpecificItem"/>
+        </classes>
+    </test>
+    <test name="Search for specific item and see details">
+        <parameter name="row" value="2"/>
+        <parameter name="searchedID" value="0"/>
+        <classes>
+            <class name="regression.SearchForSpecificProduct"/>
+        </classes>
+    </test>
+
+</suite>
